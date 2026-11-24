@@ -2,25 +2,25 @@
 cask "trajector" do
   depends_on macos: ">= :ventura"
 
-  version "0.7.1"
+  version "0.8.0"
 
   on_macos do
     on_arm do
-      sha256 "c6f7f86217749a9d72356a7e1b4b40c9b67c82d1273880f2dfe780990e48380b"
+      sha256 "b58350069017e872783e1ae45a12a1c373800070fc06fdc53f320e27e26b457f"
       url "https://github.com/PublicAI01/trajector-cli/releases/download/v#{version}/trajector_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "88e38487f66be2dbc2e1caeb02310f93402a4ac0573c6b8e30febc075b02219e"
+      sha256 "0c6d74ab276bb0b54eb3a42ac1a0c6846656caa0dcf4736482a9a1259a860886"
       url "https://github.com/PublicAI01/trajector-cli/releases/download/v#{version}/trajector_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "173115addb93e0fd98d76617ab3f96f2c7157892721dd39ffc8f0fb37c6ad49d"
+      sha256 "0eb3f45009e78ce235b263e8c1ee93f1e0242e055c8a3a0c59bee0f8cf135f27"
       url "https://github.com/PublicAI01/trajector-cli/releases/download/v#{version}/trajector_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "6253c272b0e39f77b4365738151891c57d44d1bbe390a5490b81ab12d8a34b9d"
+      sha256 "530ccf20193f1a0aacbc6e9b96566c49227b27d0559393ae4918c3da9b3f624b"
       url "https://github.com/PublicAI01/trajector-cli/releases/download/v#{version}/trajector_#{version}_linux_amd64.tar.gz"
     end
   end
